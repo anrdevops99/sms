@@ -64,4 +64,24 @@
       </plugins>
     </pluginManagement>
   </build>
+  <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray</name>
+            <url>http://13.67.178.246:8081</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>bintray-plugins</name>
+            <url>http://13.67.178.246:8081</url>
+        </pluginRepository>
+      </pluginRepositories>
 </project>
