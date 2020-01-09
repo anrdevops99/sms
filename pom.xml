@@ -70,7 +70,7 @@
                 <enabled>false</enabled>
             </snapshots>
             <id>local</id>
-            <name>sms-repo</name>
+            <name>sms</name>
             <url>http://13.67.178.246:8081</url>
         </repository>
     </repositories>
