@@ -64,6 +64,7 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
   <repositories>
         <repository>
             <snapshots>
@@ -74,6 +75,7 @@
             <url>http://13.67.178.246:8081</url>
         </repository>
     </repositories>
+  </distributionManagement>
     <pluginRepositories>
         <pluginRepository>
             <snapshots>
