@@ -26,6 +26,26 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+<distributionManagement>
+	<repository>
+	<id>central</id>
+	<name>sms</name>
+	<url>http://anr.eastus.cloudapp.azure.com:8081/artifactory/sms</url>
+	</repository>
+</distributionManagement>
+
+<repositories>
+	<repository>
+	<snapshots>
+	<enabled>false</enabled>
+	</snapshots>
+	<id>central</id>
+	<name>sms</name>
+	<url>http://anr.eastus.cloudapp.azure.com:8081/artifactory/sms</url>
+	</repository>
+</repositories>
+  
 
   <build>
     <finalName>sms</finalName>
