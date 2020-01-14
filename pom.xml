@@ -18,18 +18,6 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>MCPJfrongServer-releases</name>
-        <url>http://13.67.178.246:8081/artifactory/sms</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>MCPJfrongServer-snapshots</name>
-        <url>http://13.67.178.246:8081/artifactory/sms</url>
-    </snapshotRepository>
-</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -75,14 +63,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <pluginRepositories>
-        <pluginRepository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>local</id>
-            <name>bintray-plugins</name>
-            <url>http://13.67.178.246:8081</url>
-        </pluginRepository>
-      </pluginRepositories>
 </project>
