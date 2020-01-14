@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
 <body bgcolor="#6495E">
-  
-  <h1>*******************************************</h1>
-  <h1>******Welcome To DevOps Engineer***********</h1>
-  <h1>*******************************************</h1>
-  <h6> https://medium.com/@anusha.sharma3010/configuring-maven-repository-manager-with-jfrog-artifactory-a0eb4b98dc22</h6> 
+  <h1> Welcome to DevOps Engineer </h1> 
+  <p>University Name: <a href="https://nagarjunauniversity.ac.in/>ANU</a></p>
+  <p>Collage Name: <a href="http://www.rvrjcce.ac.in/">R.V.R & J. C Collage of Engineering</a></p>
+
+</body>
+</html>
 </body>
 </html>
